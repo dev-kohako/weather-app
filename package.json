@@ -9,19 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.12.11",
+    "@graphql-tools/schema": "^10.0.18",
+    "@types/express": "^5.0.0",
+    "apollo-server-express": "^3.13.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "cypress": "^14.0.2",
+    "express": "^4.21.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.10.0",
+    "next": "15.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
+    "@eslint/eslintrc": "^3",
+    "@types/cors": "^2.8.17",
+    "@types/node": "^22.13.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }

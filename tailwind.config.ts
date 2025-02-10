@@ -13,6 +13,9 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      ubuntu: "Ubuntu, sans-serif"
+    },
   },
   plugins: [],
 } satisfies Config;
